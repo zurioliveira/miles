@@ -1,0 +1,77 @@
+*{ 
+    padding:0;
+    margin:0;
+    /*  seletor universal tudo escrito
+    aqui pega pro site todo,
+     a nao ser que troque cada tag po tag */
+ }
+ body{
+    background-color: black;
+        
+    }
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+}
+#logo{
+    width: 90px;
+}
+nav{
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;   
+    display: inline-flex; /*pra deixar uma uma linha unica */
+}
+nav > p{
+    padding-right: 70px;
+}
+#foto-principal{ 
+    
+    background: gray url(img/principal.jpg) center center/cover no-repeat;
+    width: 100vw;
+    height: 650px;
+    display: flex;
+    align-items: center;width: 100vw;
+
+}
+#texto-principal{
+ background-color:#29a1e67e;
+ width:100vw;
+ margin-top: 35%   
+}
+div#texto-principal > p { 
+    font-size: 45px;
+    text-align: center;
+}
+h1{
+    color: aliceblue;
+}
+.container{
+    color: aliceblue;
+    width: 100%;
+}
+h1,h2{
+    text-align: center;
+    padding: 10px 0px;
+}
+span{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content:space-evenly;
+    padding-bottom: 100px;
+}
+.txt-filme{
+    width: 40vw;
+   font-size: 20px;
+   text-align: justify;
+}
+.img-filme{
+ width:30vw
+  ;
+}
